@@ -1,7 +1,6 @@
 const { expect } = require("chai");
 const { ethers, upgrades } = require("hardhat");
 
-
 describe("Budget", async function () {
     
     let Token;
